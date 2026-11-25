@@ -1,0 +1,30 @@
+# Скомпилированные файлы и кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения (библиотеки не грузим на GitHub)
+venv/
+.venv/
+env/
+ENV/
+
+# Файлы с секретами, паролями и настройками окружения
+.env
+.env.local
+*.env
+config.json
+secrets.json
+
+# Настройки редакторов кода и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Логи и локальные тестовые базы данных
+*.log
+*.sqlite3
+
+#папки с выводными данными
+output/
